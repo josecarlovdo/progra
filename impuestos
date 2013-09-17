@@ -1,0 +1,27 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main ()
+{
+	float A,B,C;
+	cout<< "ingrese sueldo:";
+	cin>> A;
+	cout<< "ingrese sueldo basico:";
+	cin>> B;
+	if (A>2*B)
+	{ 
+	 C=A*0.13;
+	cout<< "impuesto:";
+	cout<< C;
+	}
+	else
+	{
+		C=0;
+	}
+	
+	getch ();
+}
+
+
